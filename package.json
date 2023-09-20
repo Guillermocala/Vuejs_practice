@@ -2,7 +2,10 @@
   "name": "primer_proyecto",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://Guillermocala.github.io/Practica_vuejs",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
